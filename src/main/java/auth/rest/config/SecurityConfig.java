@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @Configuration
 @EnableWebSecurity
@@ -25,6 +26,7 @@ public class SecurityConfig {
 //        authenticationManagerBuilder.authenticationProvider(authProvider);
 //        return authenticationManagerBuilder.build();
 //    }
+    private final LoggerFilter loggerFilter;
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
@@ -40,6 +42,7 @@ public class SecurityConfig {
                 .and()
                 .logout()
                 .and()
+                .addFilterBefore(loggerFilter, UsernamePasswordAuthenticationFilter.class)
                 .httpBasic();
 //               Customizer.withDefaults()
         return http.build();

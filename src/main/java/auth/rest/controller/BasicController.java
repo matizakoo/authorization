@@ -21,4 +21,7 @@ public class BasicController {
     public String hi(){
         return "hi";
     }
+
+    @GetMapping("/home")
+    public String home(){ return "home"; };
 }
