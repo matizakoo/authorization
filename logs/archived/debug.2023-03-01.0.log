@@ -1,0 +1,663 @@
+2023-03-01 09:35:54 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 8816 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 09:35:54 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 09:35:54 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 09:35:55 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 09:35:57 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 09:35:57 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 09:35:57 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 09:35:57 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.49 seconds (JVM running for 4.207)
+2023-03-01 09:36:05 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                doFilterInternal
+2023-03-01 09:36:05 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Received request from: unknown
+2023-03-01 09:36:05 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Method: GET
+2023-03-01 09:36:05 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                URL: http://localhost:8080/admin/admin
+2023-03-01 09:36:05 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5455c8a6
+2023-03-01 09:36:05 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Responded with status: 302
+2023-03-01 09:36:05 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 09:36:05 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                doFilterInternal
+2023-03-01 09:36:05 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Received request from: unknown
+2023-03-01 09:36:05 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Method: GET
+2023-03-01 09:36:05 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                URL: http://localhost:8080/login
+2023-03-01 09:36:05 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5c692ea9
+2023-03-01 09:36:05 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Responded with status: 200
+2023-03-01 09:36:05 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-01 12:26:01 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 10056 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 12:26:01 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 12:26:01 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 12:26:02 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 12:26:04 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 12:26:04 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 12:26:04 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 12:26:04 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.606 seconds (JVM running for 4.487)
+2023-03-01 12:26:47 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 19368 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 12:26:47 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 12:26:47 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 12:26:48 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 12:26:49 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 12:26:49 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 12:26:49 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 12:26:50 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.115 seconds (JVM running for 3.774)
+2023-03-01 12:35:24 [main] INFO  auth.rest.RestApplicationTests -
+                Starting RestApplicationTests using Java 17.0.6 on mtza with PID 11844 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 12:35:24 [main] DEBUG auth.rest.RestApplicationTests -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 12:35:24 [main] INFO  auth.rest.RestApplicationTests -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 12:35:27 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 12:35:27 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 12:35:27 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 12:35:28 [main] INFO  auth.rest.RestApplicationTests -
+                Started RestApplicationTests in 4.405 seconds (JVM running for 5.25)
+2023-03-01 12:38:16 [main] INFO  auth.rest.RestApplicationTests -
+                Starting RestApplicationTests using Java 17.0.6 on mtza with PID 8320 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 12:38:16 [main] DEBUG auth.rest.RestApplicationTests -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 12:38:16 [main] INFO  auth.rest.RestApplicationTests -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 12:38:20 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 12:38:20 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 12:38:20 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 12:38:21 [main] INFO  auth.rest.RestApplicationTests -
+                Started RestApplicationTests in 5.747 seconds (JVM running for 6.788)
+2023-03-01 12:39:09 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 21008 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 12:39:09 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 12:39:09 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 12:39:10 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 12:39:11 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 12:39:11 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 12:39:11 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 12:39:12 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.214 seconds (JVM running for 3.802)
+2023-03-01 12:53:00 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 7684 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 12:53:00 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 12:53:00 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 12:53:01 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 12:53:02 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 12:53:02 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 12:53:02 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 12:53:02 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 2.988 seconds (JVM running for 3.687)
+2023-03-01 13:04:21 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 9048 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 13:04:21 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 13:04:21 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 13:04:23 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 13:04:24 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 13:04:24 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 13:04:24 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 13:04:25 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.495 seconds (JVM running for 4.127)
+2023-03-01 13:06:03 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 2460 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 13:06:03 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 13:06:03 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 13:06:04 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 13:06:06 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 13:06:06 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 13:06:06 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 13:06:06 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.182 seconds (JVM running for 3.815)
+2023-03-01 13:07:04 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 15212 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 13:07:04 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 13:07:04 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 13:07:05 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 13:07:06 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 13:07:06 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 13:07:06 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 13:07:06 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.041 seconds (JVM running for 3.915)
+2023-03-01 13:07:21 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                doFilterInternal
+2023-03-01 13:07:21 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Received request from: unknown
+2023-03-01 13:07:21 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Method: GET
+2023-03-01 13:07:21 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                URL: http://localhost:8080/user/user
+2023-03-01 13:07:21 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7c389022
+2023-03-01 13:07:21 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Responded with status: 302
+2023-03-01 13:07:21 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter -
+                Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 13:07:21 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                doFilterInternal
+2023-03-01 13:07:21 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Received request from: unknown
+2023-03-01 13:07:21 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Method: GET
+2023-03-01 13:07:21 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                URL: http://localhost:8080/login
+2023-03-01 13:07:21 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@12791f9e
+2023-03-01 13:07:21 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Responded with status: 200
+2023-03-01 13:07:21 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter -
+                Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-01 13:07:24 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter -
+                doFilterInternal
+2023-03-01 13:07:24 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter -
+                Received request from: unknown
+2023-03-01 13:07:24 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter -
+                Method: POST
+2023-03-01 13:07:24 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter -
+                URL: http://localhost:8080/login
+2023-03-01 13:07:24 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter -
+                Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@45a1f636
+2023-03-01 13:07:24 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter -
+                Responded with status: 302
+2023-03-01 13:07:24 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter -
+                Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 13:07:24 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter -
+                doFilterInternal
+2023-03-01 13:07:24 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter -
+                Received request from: mati
+2023-03-01 13:07:24 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter -
+                Method: GET
+2023-03-01 13:07:24 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter -
+                URL: http://localhost:8080/home
+2023-03-01 13:07:24 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter -
+                Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4dcd0d8d
+2023-03-01 13:07:24 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter -
+                Responded with status: 200
+2023-03-01 13:07:24 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter -
+                Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 14:35:01 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 12416 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 14:35:01 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 14:35:01 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 14:35:02 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 14:35:03 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 14:35:03 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 14:35:03 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 14:35:03 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.144 seconds (JVM running for 3.745)
+2023-03-01 14:35:57 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 21212 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 14:35:57 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 14:35:57 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 14:35:58 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 14:36:59 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 2212 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 14:36:59 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 14:36:59 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 14:37:00 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 14:37:01 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 14:37:01 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 14:37:01 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 14:37:01 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.12 seconds (JVM running for 3.706)
+2023-03-01 14:57:03 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 16532 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 14:57:03 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 14:57:03 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 14:57:04 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 14:57:43 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 2160 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 14:57:43 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 14:57:43 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 14:57:44 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:00:42 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 20996 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:00:42 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:00:42 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:00:43 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:01:18 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 7956 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:01:18 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:01:18 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:01:19 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:02:30 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 15656 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:02:30 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:02:30 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:02:31 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:05:04 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 12552 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:05:04 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:05:04 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:05:05 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:10:22 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 12704 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:10:22 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:10:22 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:10:23 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:14:16 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 6792 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:14:16 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:14:16 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:14:17 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:15:03 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 20584 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:15:03 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:15:03 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:15:04 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:26:12 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 13736 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:26:12 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:26:12 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:26:13 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:30:09 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 3676 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:30:09 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:30:09 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:30:10 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:46:27 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 8432 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:46:27 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:46:27 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:46:28 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:47:57 [main] INFO  auth.rest.RestApplication -
+                Starting RestApplication using Java 17.0.6 on mtza with PID 13536 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:47:57 [main] DEBUG auth.rest.RestApplication -
+                Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:47:57 [main] INFO  auth.rest.RestApplication -
+                No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:47:58 [main] DEBUG auth.rest.config.LoggerFilter -
+                Filter 'loggerFilter' configured for use
+2023-03-01 15:47:59 [main] INFO  a.rest.config.AuthenticationConfig -
+                AuthenitcationProvider
+2023-03-01 15:47:59 [main] INFO  a.rest.config.AuthenticationConfig -
+                UserDetailsService
+2023-03-01 15:48:00 [main] INFO  auth.rest.config.SecurityConfig -
+                Security filter chain
+2023-03-01 15:48:00 [main] INFO  auth.rest.RestApplication -
+                Started RestApplication in 3.093 seconds (JVM running for 3.656)
+2023-03-01 15:48:41 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 8676 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:48:41 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:48:41 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:48:42 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:48:44 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:48:44 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:48:44 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:48:44 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.109 seconds (JVM running for 3.709)
+2023-03-01 15:48:54 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 19644 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:48:54 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:48:54 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:48:55 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:48:56 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:48:56 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:48:56 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:48:57 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.009 seconds (JVM running for 3.649)
+2023-03-01 15:49:08 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:08 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:49:08 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:49:08 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/user
+2023-03-01 15:49:08 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@b4091d3
+2023-03-01 15:49:08 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-01 15:49:08 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 15:49:08 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:08 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:49:08 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:49:08 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-01 15:49:08 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3639c58f
+2023-03-01 15:49:08 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:49:08 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-01 15:49:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:49:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Method: POST
+2023-03-01 15:49:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-01 15:49:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5b3ebd81
+2023-03-01 15:49:14 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-01 15:49:14 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 15:49:14 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:14 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:49:14 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:49:14 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/home
+2023-03-01 15:49:14 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6007bbc4
+2023-03-01 15:49:14 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:49:14 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 15:49:15 [http-nio-8080-exec-10] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:15 [http-nio-8080-exec-10] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:49:15 [http-nio-8080-exec-10] INFO  auth.rest.config.LoggerFilter - Method: POST
+2023-03-01 15:49:15 [http-nio-8080-exec-10] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-01 15:49:15 [http-nio-8080-exec-10] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@20b879e8
+2023-03-01 15:49:16 [http-nio-8080-exec-10] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-01 15:49:16 [http-nio-8080-exec-10] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 15:49:16 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:16 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:49:16 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:49:16 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/home
+2023-03-01 15:49:16 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@762ae7e4
+2023-03-01 15:49:16 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:49:16 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 15:49:27 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:27 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:49:27 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:49:27 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/user
+2023-03-01 15:49:27 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7c9ed437
+2023-03-01 15:49:27 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Responded with status: 403
+2023-03-01 15:49:27 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-01 15:49:28 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:49:28 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:49:28 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:49:28 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:49:28 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2735ad2b
+2023-03-01 15:49:28 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Responded with status: 403
+2023-03-01 15:49:28 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-01 15:49:48 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 7928 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:49:48 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:49:48 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:49:49 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:49:51 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:49:51 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:49:51 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:49:51 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.01 seconds (JVM running for 3.547)
+2023-03-01 15:50:10 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:10 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:50:10 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:10 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:50:10 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6fac2df3
+2023-03-01 15:50:10 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-01 15:50:10 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 15:50:10 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:10 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:50:10 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:10 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-01 15:50:10 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6007bbc4
+2023-03-01 15:50:10 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:50:10 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-01 15:50:12 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:12 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:50:12 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Method: POST
+2023-03-01 15:50:12 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-01 15:50:12 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7f0ffc2a
+2023-03-01 15:50:13 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-01 15:50:13 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 15:50:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:50:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/home
+2023-03-01 15:50:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@20b879e8
+2023-03-01 15:50:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:50:13 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 15:50:15 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:15 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:50:15 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:15 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/user
+2023-03-01 15:50:15 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@76505495
+2023-03-01 15:50:15 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:50:15 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 15:50:16 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:16 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:50:16 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:16 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:50:16 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2fb84e89
+2023-03-01 15:50:30 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:30 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:50:30 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:30 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/user
+2023-03-01 15:50:30 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@15708561
+2023-03-01 15:50:30 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:50:30 [http-nio-8080-exec-7] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 15:50:32 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:32 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:50:32 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:32 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:50:32 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@26787922
+2023-03-01 15:50:40 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:50:40 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:50:40 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:50:40 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:50:40 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@57d3ed27
+2023-03-01 15:51:19 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:51:19 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:51:19 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:51:19 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:51:19 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@55240aba
+2023-03-01 15:51:47 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 19200 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:51:47 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:51:47 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:51:48 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:51:49 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:51:49 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:51:49 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:51:49 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.049 seconds (JVM running for 3.602)
+2023-03-01 15:51:52 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:51:52 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:51:52 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:51:52 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:51:52 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3712f52e
+2023-03-01 15:51:52 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-01 15:51:52 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 15:51:52 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:51:52 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:51:52 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:51:52 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-01 15:51:52 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@76505495
+2023-03-01 15:51:52 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:51:52 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-01 15:51:55 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:51:55 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:51:55 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Method: POST
+2023-03-01 15:51:55 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-01 15:51:55 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2fb84e89
+2023-03-01 15:51:55 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-01 15:51:55 [http-nio-8080-exec-3] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-01 15:51:55 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:51:55 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:51:55 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:51:55 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/home
+2023-03-01 15:51:55 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@15708561
+2023-03-01 15:51:55 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:51:55 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 15:51:58 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:51:58 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:51:58 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:51:58 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:51:58 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@57d3ed27
+2023-03-01 15:51:58 [http-nio-8080-exec-6] INFO  a.rest.controller.AuthorController - /user/dto
+2023-03-01 15:52:23 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 15800 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:52:23 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:52:23 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:52:24 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:52:25 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:52:25 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:52:25 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:52:25 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.059 seconds (JVM running for 3.608)
+2023-03-01 15:52:33 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:52:33 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:52:33 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:52:33 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:52:33 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4707a7e6
+2023-03-01 15:53:03 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:53:03 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:53:03 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:53:03 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:53:03 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7f0ffc2a
+2023-03-01 15:54:05 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 9264 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:54:05 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:54:05 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:54:06 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:54:08 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:54:08 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:54:08 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:54:08 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.154 seconds (JVM running for 3.776)
+2023-03-01 15:54:12 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:54:12 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:54:12 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:54:12 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:54:12 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4707a7e6
+2023-03-01 15:55:27 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 8952 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:55:27 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:55:27 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:55:28 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:55:30 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:55:30 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:55:30 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:55:30 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.2 seconds (JVM running for 3.823)
+2023-03-01 15:55:32 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:55:32 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:55:32 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:55:32 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:55:32 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5cb3c9da
+2023-03-01 15:55:57 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 20536 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:55:57 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:55:57 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:55:58 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:56:00 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:56:00 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:56:00 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:56:00 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.002 seconds (JVM running for 3.56)
+2023-03-01 15:56:40 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:56:40 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:56:40 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:56:40 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:56:40 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@71f7d3c6
+2023-03-01 15:57:13 [main] INFO  auth.rest.RestApplication - Starting RestApplication using Java 17.0.6 on mtza with PID 17956 (C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest\target\classes started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-01 15:57:13 [main] DEBUG auth.rest.RestApplication - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-01 15:57:13 [main] INFO  auth.rest.RestApplication - No active profile set, falling back to 1 default profile: "default"
+2023-03-01 15:57:14 [main] DEBUG auth.rest.config.LoggerFilter - Filter 'loggerFilter' configured for use
+2023-03-01 15:57:15 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-01 15:57:15 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-01 15:57:15 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-01 15:57:16 [main] INFO  auth.rest.RestApplication - Started RestApplication in 3.096 seconds (JVM running for 3.65)
+2023-03-01 15:57:18 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:57:18 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-01 15:57:18 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:57:18 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dtotest
+2023-03-01 15:57:18 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5ae6e37b
+2023-03-01 15:57:19 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-01 15:57:19 [http-nio-8080-exec-5] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+2023-03-01 15:57:34 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:57:34 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:57:34 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:57:34 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:57:34 [http-nio-8080-exec-2] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3639c58f
+2023-03-01 15:57:44 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:57:44 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:57:44 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:57:44 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:57:44 [http-nio-8080-exec-4] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2735ad2b
+2023-03-01 15:57:53 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-01 15:57:53 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Received request from: mati
+2023-03-01 15:57:53 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-01 15:57:53 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/dto
+2023-03-01 15:57:53 [http-nio-8080-exec-6] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@20b879e8
