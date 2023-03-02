@@ -586,3 +586,10 @@ Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFire
 Status:		200
 Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
 
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7fe41d7f
+Status:		200
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
