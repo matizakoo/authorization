@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
 @Component
 @Mapper
 public interface AuthorMapper {
-    Author authorToAuthorDto(AuthorDTO authorDTO);
-    AuthorDTO authorDtoToAuthor(Author author);
+    AuthorDTO authorToAuthorDto(Author author);
+    Author authorDtoToAuthor(AuthorDTO authorDTO);
 }
