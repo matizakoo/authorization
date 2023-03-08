@@ -12,7 +12,6 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.UUID;
 
@@ -41,17 +40,6 @@ public class LoggerFilter extends OncePerRequestFilter {
 
         log.info("Responded with status: " + response.getStatus(), APPLICATION);
         log.info("Headers: " + response.getHeaderNames(), APPLICATION);
-
-        try(FileWriter writer = new FileWriter("src/main/logs/logs.txt", true)){
-            writer.write(
-                    "Username:\t" + requestUsername + "\n" +
-                    "Method:\t\t" + request.getMethod() + "\n" +
-                    "URL:\t\t" + request.getRequestURL() + "\n" +
-                    "Headers:\t" + request.getHeaderNames() + "\n" +
-                    "Status:\t\t" + response.getStatus() + "\n" +
-                    "Headers:\t" + response.getHeaderNames() + "\n\n"
-            );
-        }
     }
 
     public static final Marker BUSINESS = MarkerFactory.getMarker("BUSINESS");

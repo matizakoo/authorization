@@ -28,6 +28,7 @@ public class BasicController {
         log.info("home", LoggerFilter.APPLICATION);
         return  BookController.url + "/dto ,/{id} " + "<br>" +
                 UsersController.url + "/findby/{role}" + "<br>" +
-                AuthorController.url + " /dto, /nodto";
+                AuthorController.url + " /dto, /nodto" + "<br>" +
+                "<a href=\"http://localhost:8080/swagger-ui/index.html#/\">swagger</a>";
     }
 }
