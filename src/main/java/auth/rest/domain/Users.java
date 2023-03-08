@@ -1,5 +1,6 @@
 package auth.rest.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -8,6 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import javax.persistence.*;
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Getter
@@ -24,6 +26,10 @@ public class Users implements UserDetails {
     private String password;
     @Enumerated(EnumType.STRING)
     private Roles role;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "users", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private Set<Devices> devices;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
