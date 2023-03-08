@@ -593,3 +593,1536 @@ Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFire
 Status:		200
 Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
 
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4902eb79
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3c26d922
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6820285f
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2bc745a4
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4444d61d
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@8de92ed
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2f4147a8
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@14ea1c4
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@69cc8927
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@72ffc4f6
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6dfb4f17
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@40d82472
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5092cd1c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6dfb4f17
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7b545861
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@68c4c693
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2ac54801
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1abffd39
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@17fb0b2d
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@130ac157
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@784ca83b
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5092cd1c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@306c12a0
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@752ab2c2
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@69c78454
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@249fbd6c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@13c4a9aa
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6c5de27b
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4c3c76fb
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@53916d4
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2fb6fe52
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@73c5ce5b
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Set-Cookie, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6b04fffe
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@42f21ef9
+Status:		404
+Headers:	[Vary, Vary, Vary, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1a7eb158
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6608ae16
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7b66651
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@703f6f28
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1b6d40ac
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@48d57120
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@11d6501c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2b15683
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7468edf3
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7b66651
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1438b4b4
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@79e1e6f5
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@edcc1c5
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7bddd39f
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@30c0d2df
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@59834385
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@434eec8c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@51fd0ce9
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@25bfbeb3
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2c6edfec
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5afb2379
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2e98da13
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3b00a6ad
+Status:		404
+Headers:	[Vary, Vary, Vary, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3771c8ea
+Status:		404
+Headers:	[Vary, Vary, Vary, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4c1f0b4d
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3b8851d6
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5e1216d2
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@559bdd09
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2e98da13
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6d023222
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@78b60b12
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6d2f9c20
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7f6b4b46
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2b592a4
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1a18efbc
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6ac32b84
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@39a16c83
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6e337a2b
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@14fcbe78
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@396767d9
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@314745d3
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@32c0a5bb
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7f6b4b46
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@61c14716
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6407bebf
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@32c0a5bb
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7365cf77
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4646018f
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@fd7ae50
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1cee00db
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@793f0046
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6cb8dc22
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6407bebf
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@32c0a5bb
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@294a640c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1e850e3e
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5820f4b5
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1e607326
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@d83de57
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7365cf77
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1bdffdc7
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@49c66965
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6c2fb8d
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@24256645
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7539e5d1
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/ADMIN
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@98967e8
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/USER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3c4edcce
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/USER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@d93c8a2
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/USER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@49da9b3c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/USER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@63c93504
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@66ada39d
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@bf4c0fd
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3425eae7
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/USER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@318e516c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/USER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@21a15df7
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/USER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@376fd91f
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2226620b
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2919bd89
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4d1cc6c1
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/usER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4859c7ec
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findby/usER
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@17299f00
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@f5b687c
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@17420640
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7167a40
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7e51eb6a
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@73ef8681
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@b3b636c
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@42a8ae72
+Status:		404
+Headers:	[Vary, Vary, Vary, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@392f911a
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@66ada39d
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2f6d1c87
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7e711179
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1a666e5d
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@c6a4c40
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@76e59512
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7e711179
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1a666e5d
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@66ada39d
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6c282009
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5ccdbd4
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@22d5a8c0
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3afc0f41
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@65c9b905
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@41858029
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@26108de8
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4dd064a2
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@365bddb0
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@322ac1c9
+Status:		404
+Headers:	[Vary, Vary, Vary, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/users/findall
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2017bec8
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@37d437b5
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@75d5aa1
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@558d1fd4
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1272be45
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2ab6fa93
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6cc16dfd
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4151a9f2
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@e0d5968
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@8bcc36
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4832d5d5
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5181a5f0
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5c1b9a4b
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@26108de8
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7c22790a
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6c7d3e96
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4dd064a2
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@365bddb0
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/favicon.ico
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@322ac1c9
+Status:		404
+Headers:	[Vary, Vary, Vary, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@66dbd854
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@dcd879a
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3bfcc63
+Status:		200
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/user
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2f0f8e87
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1f7605ba
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@464d8145
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6b85d833
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/1
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@20749991
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7fce54c9
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2627886b
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@51985715
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@54133cef
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@35df866a
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1a42293a
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/1
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2e909cf1
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/1
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6f3e39b
+Status:		200
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/2
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@3aa1e255
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/3
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5a929bc0
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/4
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@24c2345
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/book/1
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@77ad96d3
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/2
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@716a51b7
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7708b7e
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@41f7bfdc
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@39dd462a
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@444b2039
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6023a7fd
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4a13adaf
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	admin
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@33bb47a4
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	admin
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@720f744b
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	admin
+Method:		GET
+URL:		http://localhost:8080/user/book/1
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@dc59caa
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5bff8878
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@107dc85e
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@b16c788
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@beccc31
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@12a5f553
+Status:		403
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/author/nodto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5e3b893e
+Status:		403
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/author/nodto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2f0f8e87
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6023a7fd
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5d5622ec
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7487dd52
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@583249d4
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/author/nodto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5d3b4d5d
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@107dc85e
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@65ac1a5e
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Set-Cookie, Location]
+
+Username:	admin
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@beccc31
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	admin
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@c61cafd
+Status:		403
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@2f0f8e87
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6023a7fd
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4a13adaf
+Status:		302
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+
+Username:	admin
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@603aea75
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	admin
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@583249d4
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@4e4848fa
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+
+Username:	unknown
+Method:		POST
+URL:		http://localhost:8080/login
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1a8d7d65
+Status:		302
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Set-Cookie, Location]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/home
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@5bff8878
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@6157b512
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/hi
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@12a5f553
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Content-Length, Date, Keep-Alive, Connection]
+
+Username:	mati
+Method:		GET
+URL:		http://localhost:8080/user/author/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@7c1ac50
+Status:		200
+Headers:	[X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+
+Username:	unknown
+Method:		GET
+URL:		http://localhost:8080/user/book/dto
+Headers:	org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1c0a4029
+Status:		200
+Headers:	[Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+

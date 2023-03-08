@@ -15,7 +15,6 @@ CREATE TABLE book (
                     id serial NOT NULL PRIMARY KEY,
                     name VARCHAR(255) NOT NULL,
                     author_id INT NOT NULL
---                     ,CONSTRAINT fk_books_authors FOREIGN KEY (author_id) REFERENCES author (id)
 );
 
 -- Insert sample books data

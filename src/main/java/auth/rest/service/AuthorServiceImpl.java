@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -30,4 +31,12 @@ public class AuthorServiceImpl implements AuthorService{
     public List<Author> findAllNoDto(){
         return authorRepository.findAll();
     }
+
+    @Transactional
+    @Override
+    public void saveAll(List<Author> authors) {
+        authorRepository.saveAll(authors);
+    }
+
+
 }

@@ -452,3 +452,62 @@
 2023-03-02 10:22:13 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@1a9af39c
 2023-03-02 10:22:13 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
 2023-03-02 10:22:13 [http-nio-8080-exec-1] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Content-Type, Transfer-Encoding, Date, Keep-Alive, Connection]
+2023-03-02 11:34:26 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-02 11:34:26 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-02 11:34:26 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-02 11:34:26 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/user/user
+2023-03-02 11:34:26 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@ff0ba40
+2023-03-02 11:34:26 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Responded with status: 302
+2023-03-02 11:34:26 [http-nio-8080-exec-8] INFO  auth.rest.config.LoggerFilter - Headers: [Set-Cookie, X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options, Location]
+2023-03-02 11:34:26 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - doFilterInternal
+2023-03-02 11:34:26 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Received request from: unknown
+2023-03-02 11:34:26 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Method: GET
+2023-03-02 11:34:26 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - URL: http://localhost:8080/login
+2023-03-02 11:34:26 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Headers: org.springframework.security.web.firewall.StrictHttpFirewall$StrictFirewalledRequest$2@50617709
+2023-03-02 11:34:26 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Responded with status: 200
+2023-03-02 11:34:26 [http-nio-8080-exec-9] INFO  auth.rest.config.LoggerFilter - Headers: [X-Content-Type-Options, X-XSS-Protection, Cache-Control, Pragma, Expires, X-Frame-Options]
+2023-03-02 13:58:04 [main] INFO  auth.rest.RestApplicationTests - Starting RestApplicationTests using Java 17.0.6 on mtza with PID 17600 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-02 13:58:04 [main] DEBUG auth.rest.RestApplicationTests - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-02 13:58:04 [main] INFO  auth.rest.RestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-02 13:58:08 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-02 13:58:08 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-02 13:58:08 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-02 13:58:09 [main] INFO  auth.rest.RestApplicationTests - Started RestApplicationTests in 4.451 seconds (JVM running for 6.318)
+2023-03-02 13:58:38 [main] INFO  auth.rest.RestApplicationTests - Starting RestApplicationTests using Java 17.0.6 on mtza with PID 12352 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-02 13:58:38 [main] DEBUG auth.rest.RestApplicationTests - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-02 13:58:38 [main] INFO  auth.rest.RestApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2023-03-02 13:58:43 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-02 13:58:43 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-02 13:58:43 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-02 13:58:44 [main] INFO  auth.rest.RestApplicationTests - Started RestApplicationTests in 5.905 seconds (JVM running for 9.045)
+2023-03-02 14:05:33 [main] INFO  a.r.controller.AuthorControllerTest - Starting AuthorControllerTest using Java 17.0.6 on mtza with PID 984 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-02 14:05:33 [main] DEBUG a.r.controller.AuthorControllerTest - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-02 14:05:33 [main] INFO  a.r.controller.AuthorControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-03-02 14:05:36 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-02 14:05:36 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-02 14:05:36 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-02 14:05:37 [main] INFO  a.r.controller.AuthorControllerTest - Started AuthorControllerTest in 4.507 seconds (JVM running for 5.598)
+2023-03-02 14:06:13 [main] INFO  a.r.controller.AuthorControllerTest - Starting AuthorControllerTest using Java 17.0.6 on mtza with PID 18124 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-02 14:06:13 [main] DEBUG a.r.controller.AuthorControllerTest - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-02 14:06:13 [main] INFO  a.r.controller.AuthorControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-03-02 14:06:16 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-02 14:06:16 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-02 14:06:16 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-02 14:06:18 [main] INFO  a.r.controller.AuthorControllerTest - Started AuthorControllerTest in 4.822 seconds (JVM running for 5.982)
+2023-03-02 14:14:59 [main] INFO  a.r.controller.AuthorControllerTest - Starting AuthorControllerTest using Java 17.0.6 on mtza with PID 2956 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-02 14:14:59 [main] DEBUG a.r.controller.AuthorControllerTest - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-02 14:14:59 [main] INFO  a.r.controller.AuthorControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-03-02 14:15:02 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-02 14:15:02 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-02 14:15:02 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-02 14:15:03 [main] INFO  a.r.controller.AuthorControllerTest - Started AuthorControllerTest in 4.336 seconds (JVM running for 5.486)
+2023-03-02 14:25:32 [main] INFO  a.r.controller.AuthorControllerTest - Starting AuthorControllerTest using Java 17.0.6 on mtza with PID 16196 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-02 14:25:32 [main] DEBUG a.r.controller.AuthorControllerTest - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-02 14:25:32 [main] INFO  a.r.controller.AuthorControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-03-02 14:25:36 [main] INFO  a.rest.config.AuthenticationConfig - AuthenitcationProvider
+2023-03-02 14:25:36 [main] INFO  a.rest.config.AuthenticationConfig - UserDetailsService
+2023-03-02 14:25:36 [main] INFO  auth.rest.config.SecurityConfig - Security filter chain
+2023-03-02 14:25:37 [main] INFO  a.r.controller.AuthorControllerTest - Started AuthorControllerTest in 4.885 seconds (JVM running for 5.958)
+2023-03-02 14:44:22 [main] INFO  a.r.controller.AuthorControllerTest - Starting AuthorControllerTest using Java 17.0.6 on mtza with PID 14676 (started by mtza in C:\Users\mtza\OneDrive - Software Mind sp. z o.o\rest)
+2023-03-02 14:44:22 [main] DEBUG a.r.controller.AuthorControllerTest - Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-02 14:44:22 [main] INFO  a.r.controller.AuthorControllerTest - No active profile set, falling back to 1 default profile: "default"

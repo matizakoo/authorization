@@ -19,6 +19,6 @@ public class Author {
     private String surname;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<Book> books;
 }

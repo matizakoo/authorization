@@ -3,8 +3,6 @@ package auth.rest.dto;
 import auth.rest.domain.Author;
 import lombok.*;
 
-import javax.persistence.*;
-
 @Data
 @Builder
 @AllArgsConstructor
