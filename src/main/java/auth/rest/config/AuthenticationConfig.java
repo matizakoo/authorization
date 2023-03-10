@@ -2,9 +2,7 @@ package auth.rest.config;
 
 import auth.rest.repository.UsersRepository;
 import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationProvider;
@@ -13,11 +11,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Set;
 
 @Log4j2
 @Configuration
@@ -28,12 +21,14 @@ public class AuthenticationConfig {
     @Bean
     public UserDetailsService userDetailsService(){
         log.info("UserDetailsService");
+        System.out.println("UserDetailsService");
         return usersRepository::findByUsername;
     }
 
     @Bean
     public AuthenticationProvider authenticationProvider(){
         log.info("AuthenitcationProvider");
+        System.out.println("AuthenitcationProvider");
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
         provider.setUserDetailsService(userDetailsService());
         provider.setPasswordEncoder(passwordEncoder());
