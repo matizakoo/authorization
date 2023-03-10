@@ -8,17 +8,38 @@ import org.springframework.security.authentication.AuthenticationCredentialsNotF
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
 @Component
 public class JwtGenerator {
     public String generateToken(Authentication authentication){
         return Jwts.builder()
                 .setSubject(authentication.getName())
+                .claim("roles", authentication.getAuthorities())
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(new Date().getTime() + JwtConstants.JWT_EXPIRATION))
                 .signWith(SignatureAlgorithm.HS256, JwtConstants.JWT_SECRET)
                 .compact();
+    }
+
+    public List<String> getRolesFromJwt(String tokenFromCookie){
+        List<String> roles = new ArrayList<>();
+        Claims claims = Jwts.parser()
+                .setSigningKey(JwtConstants.JWT_SECRET)
+                .parseClaimsJws(tokenFromCookie)
+                .getBody();
+
+        List<Map<String, String>> authorities = (List<Map<String, String>>) claims.get("roles");
+        for (Map<String, String> authority : authorities) {
+            roles.add(authority.get("authority")
+                    .replace("ADMIN", "ADMINOS")
+                    .replace("USER", "USEROS"));
+        }
+
+        return roles;
     }
 
     public String getUsernameFromJWT(String token){

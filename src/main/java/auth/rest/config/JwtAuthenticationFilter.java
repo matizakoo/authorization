@@ -4,6 +4,8 @@ import auth.rest.service.CookieService;
 import auth.rest.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -19,7 +21,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
@@ -31,20 +36,22 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response,
                                     FilterChain filterChain) throws ServletException, IOException {
-        String token = getJwtFromRequest(request);
-        System.out.println("JwtAuthenticationFilter token: " + token);
+
         String tokenFromCookie = getJwtFromCookie(request);
         System.out.println("Token from cookie " + tokenFromCookie);
         if(StringUtils.hasText(tokenFromCookie) && jwtGenerator.validateToken(tokenFromCookie)) {
             String username = jwtGenerator.getUsernameFromJWT(tokenFromCookie);
-            System.out.println("Test czy jest token a powinien być");
             UserDetails userDetails = customUserDetailsService.loadUserByUsername(username);
+            List<String> roles = jwtGenerator.getRolesFromJwt(tokenFromCookie);
+            Set<GrantedAuthority> authorities = roles.stream()
+                    .map(SimpleGrantedAuthority::new)
+                    .collect(Collectors.toSet());
+
             UsernamePasswordAuthenticationToken authenticationToken =
                     new UsernamePasswordAuthenticationToken(
                             userDetails,
                             null,
-                            userDetails.getAuthorities()
-                    );
+                            authorities);
             authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
             SecurityContextHolder.getContext().setAuthentication(authenticationToken);
 
@@ -73,20 +80,10 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                     SecurityContextHolder.getContext().setAuthentication(authRequest);
 
                     String newToken = jwtGenerator.generateToken(authRequest);
-//                    response.setHeader("Authorization", "Bearer " + newToken);
-////                    response.setContentType("application/json");
-//                    response.getWriter().write("{ \"token\": \"" + newToken + "\" }");
-//                    response.addHeader(HttpHeaders.AUTHORIZATION, "Bearer " + token);
-                    CookieService jwtCookie = new CookieService(
-                            "jwt",
-                            newToken,
-                            true,
-                            request.isSecure(),
-                            "/",
-                            jwtGenerator.getExpirationInMillis());
+                    CookieService jwtCookie = new CookieService("jwt", newToken, true, request.isSecure(),
+                            "/", jwtGenerator.getExpirationInMillis());
 
                     response.addCookie(jwtCookie);
-
                     filterChain.doFilter(request, response);
                     return;
                 }
@@ -96,14 +93,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             }
         }
         filterChain.doFilter(request, response);
-    }
-
-    private String getJwtFromRequest(HttpServletRequest request){
-        String bearerToken = request.getHeader("Authorization");
-        if(StringUtils.hasText(bearerToken) && bearerToken.startsWith("Bearer ")) {
-            return bearerToken.substring(7);
-        }
-        return null;
     }
 
     private String getJwtFromCookie(HttpServletRequest request){
