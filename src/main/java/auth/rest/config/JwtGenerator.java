@@ -34,9 +34,7 @@ public class JwtGenerator {
 
         List<Map<String, String>> authorities = (List<Map<String, String>>) claims.get("roles");
         for (Map<String, String> authority : authorities) {
-            roles.add(authority.get("authority")
-                    .replace("ADMIN", "ADMINOS")
-                    .replace("USER", "USEROS"));
+            roles.add(authority.get("authority"));
         }
 
         return roles;

@@ -1,6 +1,7 @@
 package auth.rest.config;
 
 
+import auth.rest.domain.Roles;
 import auth.rest.handlers.CustomLogoutSuccessHandler;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
@@ -35,8 +36,8 @@ public class SecurityConfig {
                     .and()
                 .authorizeRequests()
                     .antMatchers("/login").permitAll()
-                    .antMatchers("/user/**", "v3/**").hasAnyRole("USEROS", "ADMINOS")
-                    .antMatchers("/admin/**").hasAuthority("ADMINOS")
+                    .antMatchers("/user/**", "v3/**").hasAuthority(Roles.USER.name())
+                    .antMatchers("/admin/**").hasAuthority(Roles.ADMIN.name())
                     .anyRequest().authenticated()
                     .and()
                 .formLogin()
